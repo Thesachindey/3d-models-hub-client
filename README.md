@@ -135,9 +135,3 @@ No license specified in `package.json`. Add a `LICENSE` file or set the `license
 
 ---
 
-If you'd like, I can also:
-- add a short `.env.example` or instructions for environment variables,
-- add a `CONTRIBUTING.md` template,
-- create a small GitHub Actions workflow to run lint on push.
-
-Tell me which of these you'd like next.
