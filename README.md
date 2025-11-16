@@ -129,15 +129,5 @@ If using Firebase Hosting, initialize and deploy following Firebase CLI docs.
 
 Contributions are welcome. Please open issues or PRs for bug fixes and improvements. Keep changes focused and add brief descriptions to PRs.
 
-## License
 
-No license specified in `package.json`. Add a `LICENSE` file or set the `license` field in `package.json` if you wish to apply one.
 
----
-
-If you'd like, I can also:
-- add a short `.env.example` or instructions for environment variables,
-- add a `CONTRIBUTING.md` template,
-- create a small GitHub Actions workflow to run lint on push.
-
-Tell me which of these you'd like next.
