@@ -129,9 +129,5 @@ If using Firebase Hosting, initialize and deploy following Firebase CLI docs.
 
 Contributions are welcome. Please open issues or PRs for bug fixes and improvements. Keep changes focused and add brief descriptions to PRs.
 
-## License
 
-No license specified in `package.json`. Add a `LICENSE` file or set the `license` field in `package.json` if you wish to apply one.
-
----
 
