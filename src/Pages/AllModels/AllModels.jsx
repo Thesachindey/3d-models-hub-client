@@ -13,7 +13,7 @@ const AllModels = () => {
     console.log(search_text)
     setLoading(true)
 
-    fetch(`http://localhost:3000/search?search=${search_text}`)
+    fetch(`https://3d-models-hub-server-gold.vercel.app/search?search=${search_text}`)
     .then(res=> res.json())
     .then(data=> {
       console.log(data)

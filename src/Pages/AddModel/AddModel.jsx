@@ -22,7 +22,7 @@ const navigate = useNavigate();
     }
 
    
-    fetch('http://localhost:3000/models', {
+    fetch('https://3d-models-hub-server-gold.vercel.app/models', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

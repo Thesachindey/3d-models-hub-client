@@ -13,7 +13,7 @@ const ModelDetails = () => {
   const [refetch, setRefecth] = useState(false)
 
   useEffect(() => {
-    fetch(`http://localhost:3000/models/${id}`, {
+    fetch(`https://3d-models-hub-server-gold.vercel.app/models/${id}`, {
       headers: {
         authorization: `Bearer ${user.accessToken}`,
       },
@@ -38,7 +38,7 @@ const ModelDetails = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:3000/models/${model._id}`, {
+        fetch(`https://3d-models-hub-server-gold.vercel.app/models/${model._id}`, {
           method: "DELETE",
           headers: {
             "Content-Type": "application/json",
@@ -73,7 +73,7 @@ const ModelDetails = () => {
       downloaded_by: user.email,
     };
 
-    fetch(`http://localhost:3000/downloads/${model._id}`, {
+    fetch(`https://3d-models-hub-server-gold.vercel.app/downloads/${model._id}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

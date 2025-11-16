@@ -8,7 +8,7 @@ const MyModels = () => {
 
     useEffect(()=> {
 
-        fetch(`http://localhost:3000/my-models?email=${user.email}`, {
+        fetch(`https://3d-models-hub-server-gold.vercel.app/my-models?email=${user.email}`, {
             headers: {
                 authorization: `Bearer ${user.accessToken}`
             }
