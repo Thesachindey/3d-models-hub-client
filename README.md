@@ -1,5 +1,6 @@
 # 3D Models Hub — Client
-
+- [LiveLink-client](https://3d-models-ts.netlify.app/)
+- [LiveLink-server](https://3d-models-hub-server-gold.vercel.app/)
 A React + Vite single-page client application for browsing, uploading and downloading 3D models.
 
 This repository contains the frontend for the 3D Models Hub project, built with React, Vite and TailwindCSS and integrating Firebase for authentication and storage.
